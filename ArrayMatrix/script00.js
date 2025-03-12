@@ -1,4 +1,4 @@
-// array and matrix (vetores e matrizes)
+// array and matrix (vetores e matrizes) 
 // declarar a array => []
 let array = [];
 let numberArray = [1,2,3,4,5,6,7,8,9];

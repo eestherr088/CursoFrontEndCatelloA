@@ -1,4 +1,4 @@
-// Funções de Texto (String)
+// Funções de Texto (String) string = (variavel tipo texto)
 
 let texto = "Aula de JavaScript";
 

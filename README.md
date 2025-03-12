@@ -7,3 +7,13 @@
 
 - Introdução ao JavaScript
     -Lógica do site
+
+array = coleçao de variaveis 
+vetor = matrix universal
+primeiro elemento de uma array é sempre 0, o ultimo elemento é -1
+
+adicionar elemento = push
+remover elemento = pop (remove sempre do final)
+remover na fila = shift (remover começo)
+
+callback = chamar de volta (=>)
