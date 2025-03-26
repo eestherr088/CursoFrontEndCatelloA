@@ -19,7 +19,7 @@ remover na fila = shift (remover começo)
 callback = chamar de volta (=>)
 
 19.03.2025
-front end = interação do usuário (user interface UI)
+front end = interação do usuário (user interface UI) UX = experiencia do usuario
 
 DOM = manipular html e css via javascript
 MKDIR = make diretório (criar pasta) = mkdir + nome da pasta
@@ -31,3 +31,19 @@ h1#titulo = criar id
 ul = lista nao ordenada (contém pontos)
 ol = lista ordenada (tem ordem)
 trim = tirar espaços
+
+26.03.2025
+8vh = 8% da area visual, independente da area visual
+display flex = coloca um do lado do outro
+forEach = normalmente usado em array ou vetor, para cada, repita
+for = laço de repetição contável
+tag a = âncora, linkagem
+addEventListener = ouvinte para o botão, ação ouvinte
+checkbox = caixa de seleção
+position absolute = vai estar sempre visivel
+placeholder = texto que fica na barra de pesquisa and nao ha nada
+input = caixa de texto
+value = valor
+toLowerCase = minúsculo
+
+json = biblioteca de coleções
