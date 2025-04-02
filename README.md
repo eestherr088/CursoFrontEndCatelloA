@@ -46,4 +46,23 @@ input = caixa de texto
 value = valor
 toLowerCase = minúsculo
 
-json = biblioteca de coleções
+json = biblioteca de coleções (armazena dados de coleção)
+
+02.04.2025
+coleção é diferente de tabela
+
+tabela: linhas e colunas
+coleção: não tem linhas nem coluna, armazena os dados em chave
+
+hover: ao passar o mouse ele modifica a cor
+
+display flex: fica horizontal
+flex-wrap: ao atingir o limite de palavras na horizontal ele quebra a linha
+
+width: largura
+height: altura
+
+push: adicionar elementos no final do vetor (fila)
+pop: remove
+
+position: absolute (entra como ultima camada, fica sempre sobre a camada de cima)
