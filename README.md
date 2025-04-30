@@ -8,6 +8,7 @@
 - Introdução ao JavaScript
     -Lógica do site (movimentação do site)
 
+==================================================================================================
 array = coleçao de variaveis 
 vetor = matrix universal
 primeiro elemento de uma array é sempre 0, o ultimo elemento é -1
@@ -18,6 +19,7 @@ remover na fila = shift (remover começo)
 
 callback = chamar de volta (=>)
 
+===========================================================
 19.03.2025
 front end = interação do usuário (user interface UI) UX = experiencia do usuario
 
@@ -25,6 +27,7 @@ DOM = manipular html e css via javascript
 MKDIR = make diretório (criar pasta) = mkdir + nome da pasta
 entrar na pasta = cd . + tab e nome da pasta
 echo = criar arquivo ("" escritas dentro da pasta - >> inserir coisas no arquivo)
+(echo da problemas, usar type nul >)
 
 h1.titulo = criar classe
 h1#titulo = criar id
@@ -32,6 +35,7 @@ ul = lista nao ordenada (contém pontos)
 ol = lista ordenada (tem ordem)
 trim = tirar espaços
 
+==========================================================
 26.03.2025
 8vh = 8% da area visual, independente da area visual
 display flex = coloca um do lado do outro
@@ -48,6 +52,7 @@ toLowerCase = minúsculo
 
 json = biblioteca de coleções (armazena dados de coleção)
 
+=========================================================
 02.04.2025
 coleção é diferente de tabela
 
@@ -66,3 +71,31 @@ push: adicionar elementos no final do vetor (fila)
 pop: remove
 
 position: absolute (entra como ultima camada, fica sempre sobre a camada de cima)
+
+==========================================================================================
+23.04.2025
+POO
+Programação orientada a objetos 
+base: criação de classes
+classe serve de modelo, onde se coloca atributos e metodos e serve de modelo para objetos
+instanciar objetos = guardar objeto na memória
+classe = metodos e atributos
+==========================================================================================
+30.04.2025
+
+javascript é linguagem não tipável
+apenas escopo é declaravel, let
+
+operador operacional: faz relações, maior ou igual, estritamente igual, etc
+
+estritamente igual: compara o valor e o tipo
+
+! negação
+&& 
+|| ou
+
+operador aritmerico: +, -, *, /
+
+reduce = reduz vetor para um unico item
+
+.length = tamanho do vetor
