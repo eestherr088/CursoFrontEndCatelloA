@@ -8,7 +8,7 @@
 - Introdução ao JavaScript
     -Lógica do site (movimentação do site)
 
-==================================================================================================
+========================================================================================
 array = coleçao de variaveis 
 vetor = matrix universal
 primeiro elemento de uma array é sempre 0, o ultimo elemento é -1
@@ -19,7 +19,7 @@ remover na fila = shift (remover começo)
 
 callback = chamar de volta (=>)
 
-===========================================================
+========================================================================================
 19.03.2025
 front end = interação do usuário (user interface UI) UX = experiencia do usuario
 
@@ -35,7 +35,7 @@ ul = lista nao ordenada (contém pontos)
 ol = lista ordenada (tem ordem)
 trim = tirar espaços
 
-==========================================================
+=========================================================================================
 26.03.2025
 8vh = 8% da area visual, independente da area visual
 display flex = coloca um do lado do outro
@@ -52,7 +52,7 @@ toLowerCase = minúsculo
 
 json = biblioteca de coleções (armazena dados de coleção)
 
-=========================================================
+=========================================================================================
 02.04.2025
 coleção é diferente de tabela
 
@@ -99,3 +99,32 @@ operador aritmerico: +, -, *, /
 reduce = reduz vetor para um unico item
 
 .length = tamanho do vetor
+
+=========================================================================================
+07/05/2025
+
+UI = tudo que o usuario vai interagir
+UX = construção do site
+
+briffin = buscar informações do usuario para fazer um site
+brainstorm = varias ideias reunião interna
+
+framework =  conjunto de bibliotecas // uma solução completa para a soluçao de algo
+
+biblioteca soluciona coisas específicas
+framework soluçao completa de desenvolvimento
+
+=========================================================================================
+14.05.2025
+dono do projeto: stakholder
+briffin: levantamentos de dados
+usuário: cliente (publico alvo)
+ciclos de desenvolvimentos: scran
+
+nao misturar frameworks. Nao existe angular e react. Podem existir frameworks de front e back misturados
+
+diferença de typescript e javascript, tipagem. Tipos de variaveis.
+
+escalavel: aplicação que pode começar pequena e pode chegar ao um pico de usuarios muito grandes
+
+
