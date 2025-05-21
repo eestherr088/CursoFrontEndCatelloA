@@ -126,5 +126,7 @@ nao misturar frameworks. Nao existe angular e react. Podem existir frameworks de
 diferença de typescript e javascript, tipagem. Tipos de variaveis.
 
 escalavel: aplicação que pode começar pequena e pode chegar ao um pico de usuarios muito grandes
-
-
+==========================================================================================
+21.05.2025
+angular: framework de front end
+databinding: calcula automaticamente
