@@ -8,7 +8,7 @@ import { DadosService } from 'src/app/services/dados.service';
   styleUrls: ['./cliente-form.component.scss'],
 })
 export class ClienteFormComponent {
-  nome: string = '';
+  nome: string = "";
 
   constructor(private dadosService: DadosService) {}
 
@@ -17,8 +17,9 @@ export class ClienteFormComponent {
     const cliente = new Cliente(
       this.dadosService.getClientes().length + 1,
       this.nome
-    ); //obj
-    this.dadosService.addCliente(cliente);
-    this.nome = '';
+    ); // obj
+    this.dadosService.addCliente(cliente); // adicionando o obj no vetor cliente
+    this.nome = "";
+    alert('Cliente Salvo com Sucesso!!!');
   }
 }

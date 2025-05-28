@@ -130,3 +130,12 @@ escalavel: aplicação que pode começar pequena e pode chegar ao um pico de usu
 21.05.2025
 angular: framework de front end
 databinding: calcula automaticamente
+
+===========================================================================================
+28.05.2025
+caracteristicas do angular: desenvolvimento baseado na arquiteturo mvc (mvc: organizar em modulos)
+model: modelagem em banco de dados
+controller: classe que faz o intermediário
+views: parte de interação do usuário
+
+databind: ligação de dados
