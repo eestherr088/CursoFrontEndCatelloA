@@ -1,89 +1,73 @@
-// onde começar escrever um projeto? sempre pelo model. Model é a base de tudo. Model é a estrutura de dados que vamos trabalhar.
-// método classico de criação de uma classe
-
 export class Vaga {
-  // atributos
-  //private id:number = 0;
-  //private nome:string;
-  //private foto:string;
-  //private descricao:string;
-  //private salario:number;
+  //atributos
+  // private id:number;
+  // private nome:string;
+  // private foto:string;
+  // private descricao: string;
+  // private salario:number;
 
-  //constructor(id:number, nome:string, foto:string, descricao:string, salario:number) {
-    //this.id,
-    //this.nome = nome;
-    //this.foto = foto;
-    //this.descricao = descricao;
-    //this.salario = salario;
-  //}
+  // constructor(id:number, nome:string, foto:string, descricao:string, salario:number ){
+  //   this.id = id,
+  //   this.nome = nome,
+  //   this.foto = foto,
+  //   this.descricao = descricao;
+  //   this.salario = salario
+  // }
 
-
-  // método abreviado de criação de uma classe
+  // metodo abreviado de criação de uma classe
   constructor(
-    private id:number,
-    private nome:string,
-    private foto:string,
-    private descricao:string,
-    private salario:number
+    private _id: number,
+    private _nome: string,
+    private _foto: string,
+    private _descricao: string,
+    private _salario: number
   ) {}
 
-  // métodos públicos(getters e setters)
-  getId(): number {
-    return this.id;
+  // métodos publicos( get set)
+  public get salario(): number {
+    return this._salario;
+  }
+  public set salario(value: number) {
+    this._salario = value;
+  }
+  public get descricao(): string {
+    return this._descricao;
+  }
+  public set descricao(value: string) {
+    this._descricao = value;
+  }
+  public get foto(): string {
+    return this._foto;
+  }
+  public set foto(value: string) {
+    this._foto = value;
+  }
+  public get nome(): string {
+    return this._nome;
+  }
+  public set nome(value: string) {
+    this._nome = value;
+  }
+  public get id(): number {
+    return this._id;
+  }
+  public set id(value: number) {
+    this._id = value;
   }
 
-// setId (nunca se altera, nao é necessario criar)
-
-getNome(): string{
-  return this.nome;
-}
-setNome(nome:string): void {  // não tem return, por isso void
-  this.nome = nome;
-}
-
-getFoto(): string {
-  return this.foto;
-}
-
-setFoto(foto:string): void {
-  this.foto = foto;
-}
-
-getDescricao(): string {
-  return this.descricao;
-}
-
-setDescricao(descricao:string): void{
-  this.descricao = descricao;
-}
-
-getSalario(): number {
-  return this.salario;
-}
-
-setSalario(salario:number): void {
-  this.salario = salario;
-}
-
-// conversão BD <=> obj
-toMap():{[key:string]: any} {  // obj -> bd
-  return {
-    id: this.id,
-    nome: this.nome,
-    foto: this.foto,
-    descricao: this.descricao,
-    salario: this.salario
+  //conversão BD <=> obj
+  toMap(): { [key: string]: any } {
+    //obj -> bd
+    return {
+      id: this.id,
+      nome: this.nome,
+      foto: this.foto,
+      descricao: this.descricao,
+      salario: this.salario,
+    };
   }
-}
-// fromMap: BD => obj
-static fromMap(map:any): Vaga {
-  return new Vaga(
-    map.id,
-    map.nome,
-    map.foto,
-    map.descricao,
-    map.salario
-  );
-}
-
+  //fromMap : BD => obj
+  static fromMap(map: any): Vaga {
+    return new Vaga(map.id, map.nome, map.foto, map.descricao, map.salario);
+  }
 }

@@ -133,9 +133,16 @@ databinding: calcula automaticamente
 
 ===========================================================================================
 28.05.2025
-caracteristicas do angular: desenvolvimento baseado na arquiteturo mvc (mvc: organizar em modulos)
+caracteristicas do angular: desenvolvimento baseado na arquitetura, estrutura organizada
+mvc (mvc: organizar em modulos)
 model: modelagem em banco de dados
 controller: classe que faz o intermediário
 views: parte de interação do usuário
 
 databind: ligação de dados
+
+===========================================================================================
+04.06.2025
+primeira coisa a se fazer num projeto, criar os models
+api rest: consegue fazer operações basicas
+api: aplicaçãoque posso fazer requisição, do tipo get
