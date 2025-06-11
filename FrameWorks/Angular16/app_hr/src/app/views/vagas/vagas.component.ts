@@ -18,7 +18,7 @@ export class VagasComponent implements OnInit {
   listarVagas() {
     this._vagaService.getVagas().subscribe(
       //preencher um Map com as informações do backEnd
-      (e) => {
+      (e) => {  // (e) elemento que vem do backend
         this.vagas = e.map((atributo) => {
           return new Vaga(
             atributo.id,

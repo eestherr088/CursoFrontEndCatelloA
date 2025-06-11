@@ -146,3 +146,17 @@ databind: ligação de dados
 primeira coisa a se fazer num projeto, criar os models
 api rest: consegue fazer operações basicas
 api: aplicaçãoque posso fazer requisição, do tipo get
+
+===========================================================================================
+private id: atributo do tipo id, do tipo numérico
+json (arquivo javascript object nation)
+
+ambos são a mesma coisa. O de cima é uma maneira mais facil
+const apiUrlFinal = this.apiUrl+"/"+id;
+const apiUrlFinal = `${this.apiUrl}/${id}`;
+
+starta o servidor
+npx json-server --watch (assita) backend/db.json --port(porta onde ele roda) 3008 
+
+starta o front end
+npm start
